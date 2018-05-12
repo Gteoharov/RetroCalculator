@@ -73,6 +73,10 @@ class ViewController: UIViewController {
     @IBAction func onEqualPressed(sender: AnyObject) {
         processOperation(operation: currentOperation)
     }
+    
+    @IBAction func clearLabel(sender: AnyObject) {
+        clearOperation()
+    }
 
     func playSound() {
         if bambooSound.isPlaying {
@@ -80,6 +84,12 @@ class ViewController: UIViewController {
         }
         
         bambooSound.play()
+    }
+    
+    func clearOperation() {
+        processOperation(operation: .Empty)
+        runningNumber = ""
+        outputLbl.text = "0"
     }
     
     func processOperation(operation: Operation) {
