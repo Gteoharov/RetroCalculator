@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		213B955820A73408005937C6 /* Bamboo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 213B955720A73408005937C6 /* Bamboo.wav */; };
 		216BD0EE20A022FD007A4F35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216BD0ED20A022FD007A4F35 /* AppDelegate.swift */; };
 		216BD0F020A022FD007A4F35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216BD0EF20A022FD007A4F35 /* ViewController.swift */; };
 		216BD0F320A022FD007A4F35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216BD0F120A022FD007A4F35 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		213B955720A73408005937C6 /* Bamboo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bamboo.wav; sourceTree = "<group>"; };
 		216BD0EA20A022FD007A4F35 /* RetroCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		216BD0ED20A022FD007A4F35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		216BD0EF20A022FD007A4F35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				217DFA1420A730A700DFA5D4 /* Minecraft.ttf */,
+				213B955720A73408005937C6 /* Bamboo.wav */,
 				216BD0ED20A022FD007A4F35 /* AppDelegate.swift */,
 				216BD0EF20A022FD007A4F35 /* ViewController.swift */,
 				216BD0F120A022FD007A4F35 /* Main.storyboard */,
@@ -127,6 +130,7 @@
 			files = (
 				216BD0F820A022FF007A4F35 /* LaunchScreen.storyboard in Resources */,
 				216BD0F520A022FF007A4F35 /* Assets.xcassets in Resources */,
+				213B955820A73408005937C6 /* Bamboo.wav in Resources */,
 				217DFA1520A730A700DFA5D4 /* Minecraft.ttf in Resources */,
 				216BD0F320A022FD007A4F35 /* Main.storyboard in Resources */,
 			);

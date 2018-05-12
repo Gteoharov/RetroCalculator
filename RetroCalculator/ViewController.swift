@@ -7,19 +7,36 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
+    
+    var bambooSound: AVAudioPlayer!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let path = Bundle.main.path(forResource: "Bamboo", ofType: "wav")
+        let soundURL = URL(fileURLWithPath: path!)
+        
+        do {
+            try bambooSound = AVAudioPlayer(contentsOf: soundURL)
+            bambooSound.prepareToPlay()
+        } catch let err as NSError {
+            print(err.debugDescription)
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func buttonPressed(sender: UIButton) {
+        playSound()
     }
-
-
+    
+    func playSound() {
+        if bambooSound.isPlaying {
+            bambooSound.stop()
+        }
+        
+        bambooSound.play()
+    }
 }
 
