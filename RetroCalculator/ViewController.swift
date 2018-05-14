@@ -100,13 +100,13 @@ class ViewController: UIViewController {
             runningNumber = ""
             
             if currentOperation == Operation.Multiply {
-                result = "\(Double(lefValStr)! * Double(righValStr)!)"
+                result = "\(Int(lefValStr)! * Int(righValStr)!)"
             } else if currentOperation == Operation.Divide {
-                result = "\(Double(lefValStr)! / Double(righValStr)!)"
+                result = "\(Int(lefValStr)! / Int(righValStr)!)"
             } else if currentOperation == Operation.Add {
-                result = "\(Double(lefValStr)! + Double(righValStr)!)"
+                result = "\(Int(lefValStr)! + Int(righValStr)!)"
             } else if currentOperation == Operation.Substract {
-                result = "\(Double(lefValStr)! - Double(righValStr)!)"
+                result = "\(Int(lefValStr)! - Int(righValStr)!)"
             }
             
             lefValStr = result

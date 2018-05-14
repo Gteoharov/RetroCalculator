@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,14 +15,11 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchbg" translatesAutoresizingMaskIntoConstraints="NO" id="CGz-f1-Rv2">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="launchground" translatesAutoresizingMaskIntoConstraints="NO" id="y0R-Py-TqA">
-                                <rect key="frame" x="0.0" y="533" width="375" height="134"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="957"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Retro-Calc" translatesAutoresizingMaskIntoConstraints="NO" id="J0l-R6-UO8">
                                 <rect key="frame" x="67" y="79" width="240" height="83"/>
@@ -32,15 +29,18 @@
                                 <rect key="frame" x="67" y="201" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="launchground" translatesAutoresizingMaskIntoConstraints="NO" id="y0R-Py-TqA">
+                                <rect key="frame" x="0.0" y="644" width="375" height="134"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="y0R-Py-TqA" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="CX9-mJ-tPh"/>
                             <constraint firstItem="CGz-f1-Rv2" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Ek9-Oy-g76"/>
                             <constraint firstItem="CGz-f1-Rv2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="EpX-6v-E83"/>
+                            <constraint firstItem="CGz-f1-Rv2" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="NmK-sb-cpz"/>
                             <constraint firstItem="y0R-Py-TqA" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="R3N-vt-UpE"/>
                             <constraint firstItem="CGz-f1-Rv2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dYX-07-iyd"/>
-                            <constraint firstItem="CGz-f1-Rv2" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="rd7-Ru-Xk5"/>
                             <constraint firstItem="y0R-Py-TqA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rqQ-D8-Kj3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
